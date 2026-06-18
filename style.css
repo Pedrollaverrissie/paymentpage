@@ -795,6 +795,8 @@ body{
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .tel{
     display: flex;
