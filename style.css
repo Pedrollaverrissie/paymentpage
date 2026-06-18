@@ -552,7 +552,9 @@ a{
 
 
 body{
-    height: 95vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
     background-color: rgb(15, 14, 14);
 }
 .login-container{
@@ -570,6 +572,8 @@ body{
     font-size: 12px;
     padding-bottom: 40px;
     padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: 10%;
     margin-right: 10%;
    
@@ -758,7 +762,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 130px;
     padding-bottom: 30px;
     padding-top: 30px;
     margin-left: 2%;
