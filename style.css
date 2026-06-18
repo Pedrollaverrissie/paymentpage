@@ -792,27 +792,36 @@ body{
     display: flex;
     flex-direction: column;
     border: 1px solid;
-    padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .tel{
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .tel input{
     display: flex;
     height: 20px;
-    flex: 1;
+    width: 135px;
     padding-left: 5px;
     
+    
 }
+
 .fee{
     display: flex;
-    gap: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 33px;
+    margin-bottom: 5px;
+   
    
 }
 .transact{
@@ -831,7 +840,9 @@ body{
     color: yellow;
 }
 .payment-line{
-    width: 326px;
+    width:254px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .pay{
     background-color: #02f785;
